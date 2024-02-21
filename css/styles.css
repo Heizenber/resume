@@ -16,11 +16,12 @@ h2, h4 {
 }
 
 main {
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     padding: 2rem;
     max-width: 850px;
     min-width: 800px;
     background-color: white;
+    box-shadow: 1px 1px 10px 2px #000000bb;
 }
 
 header {
