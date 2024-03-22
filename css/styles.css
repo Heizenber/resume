@@ -236,3 +236,19 @@ hr {
     width: 100%;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    margin: 0.2rem 0;
+}
+
+.enclosure {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
