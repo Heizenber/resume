@@ -52,6 +52,11 @@ header h2 {
     margin: 0.2rem 0;
 }
 
+.blue {
+    color: rgb(32, 111, 151);
+    font-weight: bold;
+}
+
 hr {
     margin: 0.7rem auto;
     width: 90%;
@@ -76,6 +81,28 @@ hr {
     width: 40px;
     height: 40px;
     margin-right: 1rem;
+}
+
+.qr-codes {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+.qr-codes img {
+    width: 150px;
+}
+
+.qr-codes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-codes p {
+    margin: 0.2rem 0;
 }
 
 .links div a {
@@ -250,5 +277,11 @@ hr {
     align-items: center;
     justify-content: start;
 }
+
+.header {
+    color: rgb(32, 111, 151);
+    text-transform: uppercase;
+}
+
 
 
