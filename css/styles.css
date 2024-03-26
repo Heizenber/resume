@@ -83,27 +83,7 @@ hr {
     margin-right: 1rem;
 }
 
-.qr-codes {
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-    margin-bottom: 0;
-}
 
-.qr-codes img {
-    width: 150px;
-}
-
-.qr-codes div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.qr-codes p {
-    margin: 0.2rem 0;
-}
 
 .links div a {
     text-decoration: none;
@@ -281,6 +261,29 @@ hr {
 .header {
     color: rgb(32, 111, 151);
     text-transform: uppercase;
+}
+
+.qr-codes {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+.qr-codes img {
+    width: 150px;
+    height: 150px;
+}
+
+.qr-codes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-codes p {
+    margin: 0.2rem 0;
 }
 
 
